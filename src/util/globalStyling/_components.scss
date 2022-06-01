@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-@mixin flexBox($j, $a, $d: row) {
+@mixin flexBox($j, $a: center, $d: row) {
     display: flex;
     justify-content: $j;
     align-items: $a;
